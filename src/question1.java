@@ -11,8 +11,12 @@ public class question1 {
             System.out.println("Number is Even and positive");
         } else if (a % 2 == 0 && a < 0) {
             System.out.println("Number is Even and negative");
-        } else if (a % 2 == 0 && a > 0) {
-
+        } else if (a % 2 != 0 && a > 0) {
+            System.out.println("Number is odd and positive");
+        } else if (a % 2 != 0 && a < 0) {
+            System.out.println("Number is odd and negative");
+        } else {
+            System.out.println("Number is zero! ");
         }
 
 
