@@ -7,7 +7,14 @@ public class question1 {
         System.out.println("Enter number to check: ");
         a = sc.nextInt();
 
+        if (a % 2 == 0 && a > 0) {
+            System.out.println("Number is Even and positive");
+        } else if (a % 2 == 0 && a < 0) {
+            System.out.println("Number is Even and negative");
+        } else if (a % 2 == 0 && a > 0) {
 
-        System.out.println(a);
+        }
+
+
     }
 }
